@@ -15,8 +15,8 @@ const Index = () => {
 
   const services = [
     {
-      title: "Diesel Engine Diagnostics",
-      description: "State-of-the-art diagnostic equipment to troubleshoot and fix any diesel engine issue with precision.",
+      title: "Japanese Diesel Specialist",
+      description: "Specialized service for Japanese import diesel vehicles including Nissan, Toyota, Isuzu and Mitsubishi.",
       icon: (
         <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
@@ -25,8 +25,8 @@ const Index = () => {
       link: "/services",
     },
     {
-      title: "Preventative Maintenance",
-      description: "Regular maintenance services to keep your diesel vehicle running smoothly and prevent costly breakdowns.",
+      title: "Expert Diesel Diagnostics",
+      description: "Full diagnostic capabilities to identify and resolve issues in all diesel vehicles, using state-of-the-art equipment.",
       icon: (
         <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M10.325 4.317c.426-1.756 2.924-1.756 3.35 0a1.724 1.724 0 002.573 1.066c1.543-.94 3.31.826 2.37 2.37a1.724 1.724 0 001.065 2.572c1.756.426 1.756 2.924 0 3.35a1.724 1.724 0 00-1.066 2.573c.94 1.543-.826 3.31-2.37 2.37a1.724 1.724 0 00-2.572 1.065c-.426 1.756-2.924 1.756-3.35 0a1.724 1.724 0 00-2.573-1.066c-1.543.94-3.31-.826-2.37-2.37a1.724 1.724 0 00-1.065-2.572c-1.756-.426-1.756-2.924 0-3.35a1.724 1.724 0 001.066-2.573c-.94-1.543.826-3.31 2.37-2.37.996.608 2.296.07 2.572-1.065z" />
@@ -36,8 +36,8 @@ const Index = () => {
       link: "/services",
     },
     {
-      title: "Performance Tuning",
-      description: "Custom performance solutions to enhance your diesel engine's power, torque, and fuel efficiency.",
+      title: "4WD & SUV Service",
+      description: "Specialized service for 4WD and SUV diesel vehicles including Pajero, Prado, Hilux, and Surf models.",
       icon: (
         <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M13 10V3L4 14h7v7l9-11h-7z" />
@@ -46,8 +46,8 @@ const Index = () => {
       link: "/services",
     },
     {
-      title: "4x4 Specialist Repairs",
-      description: "Expert service for 4x4 diesel vehicles, from drivetrain repairs to suspension upgrades.",
+      title: "Complete Engine Overhaul",
+      description: "Full engine rebuilds and overhauls for all diesel engines. Restore your engine to its optimal performance.",
       icon: (
         <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
@@ -59,21 +59,21 @@ const Index = () => {
   
   const testimonials = [
     {
-      name: "Mark Johnson",
-      vehicle: "Toyota Hilux",
-      quote: "Diesel Dynamo fixed issues that two other shops couldn't diagnose. Professional service and honest pricing. My Hilux has never run better!",
+      name: "Peter Wilson",
+      vehicle: "Nissan Patrol",
+      quote: "Dr Diesel has serviced my fleet vehicles for over 10 years. They're consistently professional and their knowledge of Japanese diesels is unmatched in Auckland.",
       image: "https://randomuser.me/api/portraits/men/32.jpg",
     },
     {
-      name: "Sarah Williams",
-      vehicle: "Nissan Navara",
-      quote: "The team went above and beyond to fit me in when my truck broke down before a road trip. Five-star service and communication throughout.",
+      name: "Sarah Thompson",
+      vehicle: "Toyota Hilux",
+      quote: "After struggling with my Hilux for months, Dr Diesel diagnosed and fixed the issue on the first visit. Their prices are fair and service is excellent.",
       image: "https://randomuser.me/api/portraits/women/44.jpg",
     },
     {
-      name: "David Thompson",
-      vehicle: "Ford Ranger",
-      quote: "After the performance tune, my Ranger has better fuel economy and more power. These guys know diesel engines inside and out.",
+      name: "Michael Chen",
+      vehicle: "Mitsubishi Pajero",
+      quote: "As someone who knows nothing about engines, I appreciate that Dr Diesel takes the time to explain issues clearly. My Pajero runs better than it has in years.",
       image: "https://randomuser.me/api/portraits/men/67.jpg",
     },
   ];
@@ -94,8 +94,8 @@ const Index = () => {
               <h2 className="text-3xl font-bold text-diesel-900 mb-4">Our Specialized Services</h2>
               <div className="w-16 h-1 bg-diesel-red mx-auto mb-6"></div>
               <p className="text-lg text-diesel-600">
-                With over 20 years of experience in diesel mechanics, we provide comprehensive services 
-                for all diesel vehicles in the Otahuhu, Auckland area.
+                With over 30 years of experience in diesel mechanics, we provide comprehensive services 
+                for all Japanese diesel vehicles throughout the Auckland area.
               </p>
             </div>
           </div>
@@ -129,7 +129,7 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className={`transition-all duration-700 delay-200 transform ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
-              <h2 className="text-3xl font-bold text-diesel-900 mb-4">Why Choose Diesel Dynamo?</h2>
+              <h2 className="text-3xl font-bold text-diesel-900 mb-4">Why Choose Dr Diesel?</h2>
               <div className="w-16 h-1 bg-diesel-red mb-6"></div>
               
               <div className="space-y-6">
@@ -140,9 +140,9 @@ const Index = () => {
                     </svg>
                   </div>
                   <div className="ml-3">
-                    <h3 className="text-lg font-medium text-diesel-800">Diesel Specialists</h3>
+                    <h3 className="text-lg font-medium text-diesel-800">Japanese Import Specialists</h3>
                     <p className="mt-1 text-diesel-600">
-                      We exclusively work on diesel engines, giving us unparalleled expertise in diagnosing and fixing diesel-specific issues.
+                      We specialize in Japanese diesel vehicles, with over 30 years of experience working with Nissan, Toyota, Mitsubishi and more.
                     </p>
                   </div>
                 </div>
@@ -154,9 +154,9 @@ const Index = () => {
                     </svg>
                   </div>
                   <div className="ml-3">
-                    <h3 className="text-lg font-medium text-diesel-800">Certified Technicians</h3>
+                    <h3 className="text-lg font-medium text-diesel-800">30+ Years Experience</h3>
                     <p className="mt-1 text-diesel-600">
-                      Our team holds specialized certifications in diesel mechanics, ensuring your vehicle receives expert care.
+                      Established in 1991, we have decades of knowledge solving complex diesel engine problems for Auckland drivers.
                     </p>
                   </div>
                 </div>
@@ -182,9 +182,9 @@ const Index = () => {
                     </svg>
                   </div>
                   <div className="ml-3">
-                    <h3 className="text-lg font-medium text-diesel-800">Quality Parts</h3>
+                    <h3 className="text-lg font-medium text-diesel-800">Honest Service</h3>
                     <p className="mt-1 text-diesel-600">
-                      We use only OEM or premium aftermarket parts to ensure reliability and longevity for your diesel vehicle.
+                      We pride ourselves on transparent pricing and clear communication, so you always know what you're paying for.
                     </p>
                   </div>
                 </div>
@@ -205,8 +205,8 @@ const Index = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent flex flex-col justify-end p-6">
-                  <span className="text-white text-xl font-bold">20+ Years of Experience</span>
-                  <p className="text-white/80 mt-2">Trusted by thousands of diesel vehicle owners in Auckland</p>
+                  <span className="text-white text-xl font-bold">30+ Years of Experience</span>
+                  <p className="text-white/80 mt-2">Auckland's trusted Japanese diesel specialists since 1991</p>
                 </div>
               </div>
             </div>
@@ -267,10 +267,10 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-white mb-6">
-              Ready to experience the Diesel Dynamo difference?
+              Ready to experience the Dr Diesel difference?
             </h2>
             <p className="text-xl text-white/80 mb-8">
-              Schedule your service appointment today and see why we're Auckland's most trusted diesel specialists.
+              Schedule your service appointment today and see why we're Auckland's most trusted Japanese diesel specialists since 1991.
             </p>
             <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Link to="/booking" className="btn-primary text-center">

@@ -44,7 +44,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20">
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center" onClick={closeMobileMenu}>
-              <span className="text-2xl font-bold text-diesel-900">DIESEL<span className="text-diesel-red">DYNAMO</span></span>
+              <span className="text-2xl font-bold text-diesel-900">DR<span className="text-diesel-red">DIESEL</span></span>
             </Link>
           </div>
           
@@ -62,7 +62,7 @@ const Navbar = () => {
             <Link to="/contact" className={`nav-link ${isActiveLink('/contact') ? 'active-nav-link' : ''}`}>
               Contact
             </Link>
-            <a href="tel:+6495331234" className="btn-primary">
+            <a href="tel:+6492748602" className="btn-primary">
               Call Us
             </a>
           </nav>
@@ -96,7 +96,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20 px-4 border-b">
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center" onClick={closeMobileMenu}>
-              <span className="text-2xl font-bold text-diesel-900">DIESEL<span className="text-diesel-red">DYNAMO</span></span>
+              <span className="text-2xl font-bold text-diesel-900">DR<span className="text-diesel-red">DIESEL</span></span>
             </Link>
           </div>
           <button
@@ -141,7 +141,7 @@ const Navbar = () => {
               Contact
             </Link>
             <a
-              href="tel:+6495331234"
+              href="tel:+6492748602"
               className="btn-primary text-center"
               onClick={closeMobileMenu}
             >

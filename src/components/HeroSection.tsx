@@ -27,10 +27,10 @@ const HeroSection = () => {
       <div className="relative z-20 h-full flex flex-col justify-center items-start px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className={`transition-all duration-1000 ease-out transform ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-            Auckland's Premier <span className="text-diesel-red">Diesel Specialists</span>
+            Auckland's <span className="text-diesel-red">Diesel Specialists</span> Since 1991
           </h1>
           <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl">
-            Expert diagnostics and repairs for all diesel vehicles. 
+            Expert diagnostics and repairs for Japanese diesel vehicles. 
             From performance upgrades to routine maintenance, 
             our certified technicians handle it all.
           </p>
