@@ -80,11 +80,23 @@ const Index = () => {
 
   return (
     <div className="page-transition">
-      {/* Navigation */}
-      <Navbar />
+     
+      <div
+      style={{
+        backgroundImage: `url(${window.innerWidth >= 768 ? '/images/dd6_dtop.png' : '/images/dd6_m.png'})`,
+        backgroundPosition: 'center',
+        backgroundSize: 'cover',
+        backgroundRepeat: 'no-repeat',
+        filter: 'brightness(0.6)'
+      }}
+      >
+        {/* Navigation */}
+        <Navbar />
       
-      {/* Hero Section */}
-      <HeroSection />
+        {/* Hero Section */}
+        <HeroSection />
+      </div>
+      
       
       {/* Services Section */}
       <section id="services" className="py-20 bg-white">
