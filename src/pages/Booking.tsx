@@ -53,7 +53,7 @@ const Booking = () => {
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-4">
                   <div>
                     <p className="font-medium text-diesel-700">Weekdays:</p>
-                    <p className="text-diesel-600">Monday - Friday: 7:30 AM - 5:30 PM</p>
+                    <p className="text-diesel-600">Monday - Friday: 9:00 AM - 5:30 PM</p>
                   </div>
                   <div>
                     <p className="font-medium text-diesel-700">Weekend:</p>

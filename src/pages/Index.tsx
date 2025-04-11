@@ -61,19 +61,19 @@ const Index = () => {
     {
       name: "Peter Wilson",
       vehicle: "Nissan Patrol",
-      quote: "Dr Diesel has serviced my fleet vehicles for over 10 years. They're consistently professional and their knowledge of Japanese diesels is unmatched in Auckland.",
+      quote: "Diesel Drive has serviced my fleet vehicles for over 10 years. They're consistently professional and their knowledge of Japanese diesels is unmatched in Auckland.",
       image: "https://randomuser.me/api/portraits/men/32.jpg",
     },
     {
       name: "Sarah Thompson",
       vehicle: "Toyota Hilux",
-      quote: "After struggling with my Hilux for months, Dr Diesel diagnosed and fixed the issue on the first visit. Their prices are fair and service is excellent.",
+      quote: "After struggling with my Hilux for months, Diesel Drive diagnosed and fixed the issue on the first visit. Their prices are fair and service is excellent.",
       image: "https://randomuser.me/api/portraits/women/44.jpg",
     },
     {
       name: "Michael Chen",
       vehicle: "Mitsubishi Pajero",
-      quote: "As someone who knows nothing about engines, I appreciate that Dr Diesel takes the time to explain issues clearly. My Pajero runs better than it has in years.",
+      quote: "As someone who knows nothing about engines, I appreciate that Diesel takes the time to explain issues clearly. My Pajero runs better than it has in years.",
       image: "https://randomuser.me/api/portraits/men/67.jpg",
     },
   ];
@@ -105,8 +105,8 @@ const Index = () => {
               <h2 className="text-3xl font-bold text-diesel-900 mb-4">Our Specialized Services</h2>
               <div className="w-16 h-1 bg-diesel-red mx-auto mb-6"></div>
               <p className="text-lg text-diesel-600">
-                With over 30 years of experience in diesel mechanics, we provide comprehensive services 
-                for all Japanese diesel vehicles throughout the Auckland area.
+                With our expertise in all diesel mechanics, we provide comprehensive services 
+                for all diesel vehicles throughout the Auckland area.
               </p>
             </div>
           </div>
@@ -140,7 +140,7 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className={`transition-all duration-700 delay-200 transform ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
-              <h2 className="text-3xl font-bold text-diesel-900 mb-4">Why Choose Dr Diesel?</h2>
+              <h2 className="text-3xl font-bold text-diesel-900 mb-4">Why Choose Diesel Drive?</h2>
               <div className="w-16 h-1 bg-diesel-red mb-6"></div>
               
               <div className="space-y-6">
@@ -153,7 +153,7 @@ const Index = () => {
                   <div className="ml-3">
                     <h3 className="text-lg font-medium text-diesel-800">Japanese Import Specialists</h3>
                     <p className="mt-1 text-diesel-600">
-                      We specialize in Japanese diesel vehicles, with over 30 years of experience working with Nissan, Toyota, Mitsubishi and more.
+                      We specialize in diesel vehicles, with many years of experience working with Nissan, Toyota, Mitsubishi and more.
                     </p>
                   </div>
                 </div>
@@ -216,8 +216,7 @@ const Index = () => {
                   className="w-full h-full object-cover"
                 />
                 <div className="absolute inset-0 bg-gradient-to-t from-black/70 via-black/30 to-transparent flex flex-col justify-end p-6">
-                  <span className="text-white text-xl font-bold">30+ Years of Experience</span>
-                  <p className="text-white/80 mt-2">Auckland's trusted Japanese diesel specialists since 1991</p>
+                  <p className="text-white/80 mt-2">Auckland's trusted diesel specialists</p>
                 </div>
               </div>
             </div>
@@ -278,7 +277,7 @@ const Index = () => {
         <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
           <div className="max-w-4xl mx-auto text-center">
             <h2 className="text-3xl font-bold text-white mb-6">
-              Ready to experience the Dr Diesel difference?
+              Ready to experience the Diesel Drive difference?
             </h2>
             <p className="text-xl text-white/80 mb-8">
               Schedule your service appointment today and see why we're Auckland's most trusted Japanese diesel specialists since 1991.

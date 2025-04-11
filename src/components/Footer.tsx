@@ -132,7 +132,7 @@ const Footer = () => {
         <div className="border-t border-diesel-700 mt-12 pt-8">
           <div className="flex flex-col md:flex-row md:justify-between items-center">
             <p className="text-diesel-400 text-sm">
-              &copy; {new Date().getFullYear()} Dr Diesel. All rights reserved.
+              &copy; {new Date().getFullYear()} Diesel Drive. All rights reserved.
             </p>
             <div className="mt-4 md:mt-0">
               <ul className="flex space-x-6 text-sm">
