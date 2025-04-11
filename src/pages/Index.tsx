@@ -15,8 +15,8 @@ const Index = () => {
 
   const services = [
     {
-      title: "Japanese Diesel Specialist",
-      description: "Specialized service for Japanese import diesel vehicles including Nissan, Toyota, Isuzu and Mitsubishi.",
+      title: "Diesel Specialist",
+      description: "Specialized service for diesel vehicles including Nissan, Toyota, Isuzu and Mitsubishi.",
       icon: (
         <svg className="w-12 h-12" fill="none" viewBox="0 0 24 24" stroke="currentColor">
           <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M9 3v2m6-2v2M9 19v2m6-2v2M5 9H3m2 6H3m18-6h-2m2 6h-2M7 19h10a2 2 0 002-2V7a2 2 0 00-2-2H7a2 2 0 00-2 2v10a2 2 0 002 2zM9 9h6v6H9V9z" />
@@ -61,7 +61,7 @@ const Index = () => {
     {
       name: "Peter Wilson",
       vehicle: "Nissan Patrol",
-      quote: "Diesel Drive has serviced my fleet vehicles for over 10 years. They're consistently professional and their knowledge of Japanese diesels is unmatched in Auckland.",
+      quote: "Diesel Drive has serviced my fleet vehicles for over 10 years. They're consistently professional and their knowledge of diesels is unmatched in Auckland.",
       image: "https://randomuser.me/api/portraits/men/32.jpg",
     },
     {
@@ -151,7 +151,7 @@ const Index = () => {
                     </svg>
                   </div>
                   <div className="ml-3">
-                    <h3 className="text-lg font-medium text-diesel-800">Japanese Import Specialists</h3>
+                    <h3 className="text-lg font-medium text-diesel-800">Diesel Specialists</h3>
                     <p className="mt-1 text-diesel-600">
                       We specialize in diesel vehicles, with many years of experience working with Nissan, Toyota, Mitsubishi and more.
                     </p>
@@ -280,7 +280,7 @@ const Index = () => {
               Ready to experience the Diesel Drive difference?
             </h2>
             <p className="text-xl text-white/80 mb-8">
-              Schedule your service appointment today and see why we're Auckland's most trusted Japanese diesel specialists since 1991.
+              Schedule your service appointment today and see why we're Auckland's most trusted diesel specialists.
             </p>
             <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Link to="/booking" className="btn-primary text-center">

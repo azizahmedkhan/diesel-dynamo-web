@@ -11,7 +11,7 @@ const Footer = () => {
           <div>
             <h3 className="text-2xl font-bold mb-4">DR<span className="text-diesel-red">DIESEL</span></h3>
             <p className="mb-4 text-diesel-300">
-              Specialized diesel mechanics providing expert service for Japanese import vehicles, 4WD, and diesel engines in Auckland since 1991.
+              Specialized diesel mechanics providing expert service for trucks, SUVs, 4WD, and diesel engines in Auckland since 1991.
             </p>
             <div className="flex space-x-4">
               <a href="https://facebook.com" target="_blank" rel="noopener noreferrer" className="social-icon" aria-label="Facebook">
@@ -77,7 +77,7 @@ const Footer = () => {
             <h3 className="text-xl font-semibold mb-4">Our Services</h3>
             <ul className="space-y-2">
               <li className="text-diesel-300 hover:text-white transition-colors duration-200">
-                Japanese Diesel Specialist
+                Diesel Specialist
               </li>
               <li className="text-diesel-300 hover:text-white transition-colors duration-200">
                 Expert Diesel Diagnostics
