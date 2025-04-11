@@ -56,13 +56,13 @@ const Navbar = () => {
             <Link to="/services" className={`nav-link ${isActiveLink('/services') ? 'active-nav-link' : ''}`}>
               Services
             </Link>
-            <Link to="/booking" className={`nav-link ${isActiveLink('/booking') ? 'active-nav-link' : ''}`}>
+            {/* <Link to="/booking" className={`nav-link ${isActiveLink('/booking') ? 'active-nav-link' : ''}`}>
               Book a Service
             </Link>
             <Link to="/contact" className={`nav-link ${isActiveLink('/contact') ? 'active-nav-link' : ''}`}>
               Contact
-            </Link>
-            <a href="tel:+6492748602" className="btn-primary">
+            </Link> */}
+            <a href="tel:+642102583793" className="btn-primary">
               Call Us
             </a>
           </nav>
@@ -126,7 +126,7 @@ const Navbar = () => {
             >
               Services
             </Link>
-            <Link
+            {/* <Link
               to="/booking"
               className="text-xl font-medium text-diesel-900 hover:text-diesel-red"
               onClick={closeMobileMenu}
@@ -139,7 +139,7 @@ const Navbar = () => {
               onClick={closeMobileMenu}
             >
               Contact
-            </Link>
+            </Link> */}
             <a
               href="tel:+6492748602"
               className="btn-primary text-center"

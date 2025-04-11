@@ -59,7 +59,7 @@ const Footer = () => {
                   Services
                 </Link>
               </li>
-              <li>
+              {/* <li>
                 <Link to="/booking" className="text-diesel-300 hover:text-white transition-colors duration-200">
                   Book a Service
                 </Link>
@@ -68,7 +68,7 @@ const Footer = () => {
                 <Link to="/contact" className="text-diesel-300 hover:text-white transition-colors duration-200">
                   Contact
                 </Link>
-              </li>
+              </li> */}
             </ul>
           </div>
 

@@ -218,14 +218,14 @@ const Services = () => {
             <p className="text-xl text-white/90 mb-8">
               Book your service appointment today or contact us to discuss your specific needs.
             </p>
-            <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+            {/* <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Link to="/booking" className="btn-primary bg-white text-diesel-red hover:bg-diesel-100 text-center">
                 Book a Service
               </Link>
               <Link to="/contact" className="btn-secondary border-white text-white hover:bg-white hover:text-diesel-red text-center">
                 Contact Us
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>

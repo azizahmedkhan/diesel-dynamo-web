@@ -282,14 +282,14 @@ const Index = () => {
             <p className="text-xl text-white/80 mb-8">
               Schedule your service appointment today and see why we're Auckland's most trusted diesel specialists.
             </p>
-            <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
+            {/* <div className="flex flex-col sm:flex-row justify-center space-y-4 sm:space-y-0 sm:space-x-4">
               <Link to="/booking" className="btn-primary text-center">
                 Book a Service
               </Link>
               <Link to="/contact" className="btn-secondary text-center">
                 Contact Us
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </section>
