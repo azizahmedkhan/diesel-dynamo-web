@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
           <div>
-            <h3 className="text-2xl font-bold mb-4">DR<span className="text-diesel-red">DIESEL</span></h3>
+            <h3 className="text-2xl font-bold mb-4">DIESEL<span className="text-diesel-red">DRIVE</span></h3>
             <p className="mb-4 text-diesel-300">
               Specialized diesel mechanics providing expert service for trucks, SUVs, 4WD, and diesel engines in Auckland since 1991.
             </p>

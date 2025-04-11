@@ -96,7 +96,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-20 px-4 border-b">
           <div className="flex-shrink-0">
             <Link to="/" className="flex items-center" onClick={closeMobileMenu}>
-              <span className="text-2xl font-bold text-diesel-900">DR<span className="text-diesel-red">DIESEL</span></span>
+              <span className="text-2xl font-bold text-diesel-900">DIESEL<span className="text-diesel-red">DRIVE</span></span>
             </Link>
           </div>
           <button
