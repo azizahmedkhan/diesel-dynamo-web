@@ -44,8 +44,8 @@ const Contact = () => {
                   </div>
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-diesel-800">Our Location</h3>
-                    <address className="mt-2 not-italic text-diesel-600">
-                      123 Diesel Drive<br />
+                    <address className="mt-2 not-italic text-diesel-600 hover:text-diesel-red cursor-pointer" onClick={() => window.open('https://www.google.com/maps/search/?api=1&query=31c+Atkinson+avenue+Otahuhu+Auckland+New+Zealand')}>
+                      31c Atkinson<br />
                       Otahuhu, Auckland 1062<br />
                       New Zealand
                     </address>
@@ -61,9 +61,7 @@ const Contact = () => {
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-diesel-800">Phone Numbers</h3>
                     <div className="mt-2 space-y-1">
-                      <p className="text-diesel-600">Main: (09) 533 1234</p>
-                      <p className="text-diesel-600">Service: (09) 533 1235</p>
-                      <p className="text-diesel-600">Emergency: (021) 123 4567</p>
+                      <p className="text-diesel-600">Mobile: 021 0258 3793</p>
                     </div>
                   </div>
                 </div>
@@ -77,9 +75,7 @@ const Contact = () => {
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-diesel-800">Email Addresses</h3>
                     <div className="mt-2 space-y-1">
-                      <p className="text-diesel-600">General Inquiries: info@dieseldynamo.co.nz</p>
-                      <p className="text-diesel-600">Service Bookings: service@dieseldynamo.co.nz</p>
-                      <p className="text-diesel-600">Parts Department: parts@dieseldynamo.co.nz</p>
+                      <p className="text-diesel-600">Email: z.ali0067@gmail.com</p>
                     </div>
                   </div>
                 </div>
@@ -93,7 +89,7 @@ const Contact = () => {
                   <div className="ml-4">
                     <h3 className="text-lg font-semibold text-diesel-800">Business Hours</h3>
                     <div className="mt-2 space-y-1">
-                      <p className="text-diesel-600">Monday - Friday: 7:30 AM - 5:30 PM</p>
+                      <p className="text-diesel-600">Monday - Friday: 9:00 AM - 5:30 PM</p>
                       <p className="text-diesel-600">Saturday: 8:00 AM - 2:00 PM</p>
                       <p className="text-diesel-600">Sunday: Closed</p>
                     </div>
@@ -103,13 +99,16 @@ const Contact = () => {
               
               {/* Map */}
               <div className="mt-10 rounded-lg overflow-hidden shadow-lg h-[300px] bg-gray-200 flex items-center justify-center">
-                <div className="text-center p-6">
-                  <h3 className="text-diesel-800 font-semibold mb-2">Map Location</h3>
-                  <p className="text-diesel-600">
-                    Interactive map would be displayed here. <br />
-                    We are conveniently located in Otahuhu, Auckland with easy access from the Southern Motorway.
-                  </p>
-                </div>
+                  <iframe 
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3187.5791705173766!2d174.84332091547592!3d-36.94748037991246!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6d0d4c9c89b31f91%3A0x7f14a67a2e6defb1!2s31C%20Atkinson%20Avenue%2C%20%C5%8Ct%C4%81huhu%2C%20Auckland%201062%2C%20New%20Zealand!5e0!3m2!1sen!2sus!4v1625162362548!5m2!1sen!2sus"
+                    width="100%" 
+                    height="100%" 
+                    style={{border:0}}
+                    allowFullScreen={true}
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                  ></iframe>
+                
               </div>
             </div>
             

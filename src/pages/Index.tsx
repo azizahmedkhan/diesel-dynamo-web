@@ -83,11 +83,10 @@ const Index = () => {
      
       <div
       style={{
-        backgroundImage: `url(${window.innerWidth >= 768 ? '/images/dd6_dtop.png' : '/images/dd6_m.png'})`,
+        backgroundImage: `url(${window.innerWidth >= 768 ? '/images/dd6_dtop.png' : '/images/dd6_w_m.png'})`,
         backgroundPosition: 'center',
         backgroundSize: 'cover',
         backgroundRepeat: 'no-repeat',
-        filter: 'brightness(0.6)'
       }}
       >
         {/* Navigation */}

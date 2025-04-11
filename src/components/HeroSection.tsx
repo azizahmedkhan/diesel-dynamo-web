@@ -21,7 +21,7 @@ const HeroSection = () => {
       <div className="relative z-20 h-full flex flex-col justify-center items-start px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className={`transition-all duration-1000 ease-out transform ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-            <span className="text-diesel-red">We repair all types of Cars, Trucks, Vans, SUVs </span>  & light machinery
+            <span className="text-[#FF0000] drop-shadow-[0_0_5px_rgba(255,0,0,0.5)]">We repair all types of Cars, Trucks, Vans, SUVs </span>  & light machinery
           </h1>
           <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">
             Expert diagnostics and repairs for both petrol and diesel vehicles. 
