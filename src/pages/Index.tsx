@@ -166,9 +166,9 @@ const Index = () => {
                     </svg>
                   </div>
                   <div className="ml-3">
-                    <h3 className="text-lg font-medium text-diesel-800">30+ Years Experience</h3>
+                    <h3 className="text-lg font-medium text-diesel-800">Years Experience</h3>
                     <p className="mt-1 text-diesel-600">
-                      Established in 1991, we have decades of knowledge solving complex diesel engine problems for Auckland drivers.
+                      We have decades of knowledge solving complex diesel and patrol engine problems for Auckland drivers.
                     </p>
                   </div>
                 </div>

@@ -21,12 +21,11 @@ const HeroSection = () => {
       <div className="relative z-20 h-full flex flex-col justify-center items-start px-4 sm:px-6 lg:px-8 max-w-7xl mx-auto">
         <div className={`transition-all duration-1000 ease-out transform ${isLoaded ? 'translate-y-0 opacity-100' : 'translate-y-10 opacity-0'}`}>
           <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-white leading-tight mb-6">
-            Auckland's <span className="text-diesel-red">Diesel Specialists</span> Since 1991
+            <span className="text-diesel-red">We repair all types of Cars, Trucks, Vans, SUVs </span>  & light machinery
           </h1>
-          <p className="text-xl md:text-2xl text-white/90 mb-8 max-w-2xl">
-            Expert diagnostics and repairs for Japanese diesel vehicles. 
-            From performance upgrades to routine maintenance, 
-            our certified technicians handle it all.
+          <p className="text-xl md:text-2xl text-white mb-8 max-w-2xl">
+            Expert diagnostics and repairs for both petrol and diesel vehicles. 
+            We provide all types of service and maintanace including engine rebuild, suspension,and transmission repair and replacement.
           </p>
           <div className="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
             <Link to="/booking" className="btn-primary text-center">
