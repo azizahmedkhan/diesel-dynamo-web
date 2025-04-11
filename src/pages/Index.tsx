@@ -136,7 +136,7 @@ const Index = () => {
       </section>
       
       {/* Why Choose Us Section */}
-      <section className="py-20 bg-gray-50">
+      {/* <section className="py-20 bg-gray-50">
         <div className="container mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center">
             <div className={`transition-all duration-700 delay-200 transform ${isVisible ? 'opacity-100 translate-x-0' : 'opacity-0 -translate-x-10'}`}>
@@ -222,7 +222,7 @@ const Index = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       
       {/* Testimonials Section */}
       <section className="py-20 bg-white">
